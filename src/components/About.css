@@ -1,0 +1,98 @@
+.about {
+    padding: 50px;
+    text-align: center;
+    background-color: #121212;
+}
+
+.about-description {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #ccc;
+}
+
+.contact-button {
+    background-color: #00ff00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+}
+
+.profile-image {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Capabilities Section */
+.capabilities {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.capabilities h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.capabilities-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.capabilities-list span {
+    background-color: #333;
+    color: #00ff00;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Experience Section */
+.experience {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.experience h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.experience-item {
+    margin: 20px 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.experience-item h4 {
+    color: #00ff00;
+    margin-bottom: 5px;
+}
+
+.experience-details {
+    font-size: 0.8rem;
+    color: #888;
+}

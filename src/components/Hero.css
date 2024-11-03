@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.intro {
+    max-width: 600px;
+    
+}
+.in{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.profile{
+    border-radius: 8%;
+    margin-top: 20px;
+    width: 500px;
+    height: 450px;
+    background: black;
+    
+}
+
+button {
+    background-color: #00ff00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.social-icons img {
+    width: 24px;
+    margin: 0 10px;
+}
+.h{
+    justify-content: space-evenly;
+}

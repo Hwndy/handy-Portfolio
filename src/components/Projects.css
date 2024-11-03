@@ -1,0 +1,38 @@
+.featured-projects {
+    padding: 50px;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+}
+
+.project-thumbnail {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-info {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.project-links a {
+    background-color: #00ff00;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 100%;
+}
