@@ -12,3 +12,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 95%;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+
+    section {
+        padding: 4rem 4% 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 80%;
+    }
+}
